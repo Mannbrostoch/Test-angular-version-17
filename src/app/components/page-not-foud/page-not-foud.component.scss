@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wapper-container-notfound-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-notfound-page {
+    text-align: center;
+}
+.container-notfound-page img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-notfound-page h1 {
+    font-size: 6em;
+    margin-bottom: 10px;
+}
+
+.container-notfound-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container-notfound-page p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.container-notfound-page .btn {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+.container-notfound-page .btn:hover {
+    background-color: #0056b3;
+}
